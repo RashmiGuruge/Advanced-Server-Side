@@ -10,14 +10,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <?php include 'head.php'; ?>
 </head>
 
-<body>
+<body style="background-color: #f7f3f98c;">
 
     <!-- Header Start -->
     <?php include('header_before.php'); ?>
     <!--/ Header End -->
 
-
-    <p>fgfggfgfgfgfgfgfgfgfggfgfgfgf</p>
 
 </body>
 

@@ -16,7 +16,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <?php include('header_before.php'); ?>
     <!--/ Header End -->
 
-
     <div class="container" style="margin-top: 120px;"></div>
 
     <script type="text/template" id="loginpage_template">

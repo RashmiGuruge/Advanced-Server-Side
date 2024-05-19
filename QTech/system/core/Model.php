@@ -60,7 +60,7 @@ class CI_Model {
 	/**
 	 * __get magic
 	 *
-	 * Allows models to access CI's loaded classes using the same
+	 * Allows Models to access CI's loaded classes using the same
 	 * syntax as controllers.
 	 *
 	 * @param	string	$key
