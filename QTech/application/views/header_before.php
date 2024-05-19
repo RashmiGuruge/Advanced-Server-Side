@@ -8,7 +8,7 @@
                 <div class="align-items-center justify-content-between row w-100">
 
                     <div class="col-auto">
-                        <a href="<?php echo site_url('user/landing_page'); ?>">
+                        <a href="<?php echo site_url('user/login_page'); ?>">
                             <img src="../../assets/images/logo/qtech-logo-white.png" alt="" style="width: 10rem;">
                         </a>
                     </div>
