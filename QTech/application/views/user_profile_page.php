@@ -116,15 +116,15 @@
                         <form class="p-xl-4" id="changePasswordForm">
                             <div class="form-group pb-2">
                                 <label for="oldPassword">Enter Old Password</label>
-                                <input type="password" class="form-control" id="oldPassword" required>
+                                <input type="password" class="form-control" id="oldPassword" placeholder="Old password" required required>
                             </div>
                             <div class="form-group pb-2">
                                 <label for="newPassword">Enter New Password</label>
-                                <input type="password" class="form-control" id="newPassword" required>
+                                <input type="password" class="form-control" id="newPassword" placeholder="New password" required>
                             </div>
                             <div class="form-group">
                                 <label for="confirmPassword">Confirm New Password</label>
-                                <input type="password" class="form-control" id="confirmPassword" required>
+                                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm new password" required>
                             </div>
                         </form>
                         <div class="text-right">

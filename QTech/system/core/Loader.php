@@ -74,7 +74,7 @@ class CI_Loader {
 	protected $_ci_library_paths =	array(APPPATH, BASEPATH);
 
 	/**
-	 * List of paths to load models from
+	 * List of paths to load Models from
 	 *
 	 * @var	array
 	 */
@@ -102,7 +102,7 @@ class CI_Loader {
 	protected $_ci_classes =	array();
 
 	/**
-	 * List of loaded models
+	 * List of loaded Models
 	 *
 	 * @var	array
 	 */
@@ -225,7 +225,7 @@ class CI_Loader {
 	/**
 	 * Model Loader
 	 *
-	 * Loads and instantiates models.
+	 * Loads and instantiates Models.
 	 *
 	 * @param	mixed	$model		Model name
 	 * @param	string	$name		An optional object name to assign to
@@ -330,15 +330,15 @@ class CI_Loader {
 		{
 			foreach ($this->_ci_model_paths as $mod_path)
 			{
-				if ( ! file_exists($mod_path.'models/'.$path.$model.'.php'))
+				if ( ! file_exists($mod_path.'Models/'.$path.$model.'.php'))
 				{
 					continue;
 				}
 
-				require_once($mod_path.'models/'.$path.$model.'.php');
+				require_once($mod_path.'Models/'.$path.$model.'.php');
 				if ( ! class_exists($model, FALSE))
 				{
-					throw new RuntimeException($mod_path."models/".$path.$model.".php exists, but doesn't declare class ".$model);
+					throw new RuntimeException($mod_path."Models/".$path.$model.".php exists, but doesn't declare class ".$model);
 				}
 
 				break;
@@ -1360,7 +1360,7 @@ class CI_Loader {
 			$this->library($autoload['libraries']);
 		}
 
-		// Autoload models
+		// Autoload Models
 		if (isset($autoload['model']))
 		{
 			$this->model($autoload['model']);
